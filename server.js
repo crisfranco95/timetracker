@@ -11,7 +11,7 @@ mongoose.connect(process.env.DB, { useNewUrlParser: true });
 
 app.use(cors());
 
-var port = process.env.PORT || 8082;
+var port = process.env.PORT;
 
 
 var auth = require('./app/routes/v1/auth/auth');
