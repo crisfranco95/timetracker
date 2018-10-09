@@ -1,7 +1,3 @@
-// *************************************************+
-// APIS FOR AUTHENTICATION MANAGEMENT 
-// *************************************************+
-
 var express = require('express');
 var router = express.Router();
 var User = require('../../../model/User');
