@@ -1,7 +1,3 @@
-// *************************************************+
-// APIS FOR USER MANAGEMENT (ADMIN) 
-// *************************************************+
-
 var express = require('express');
 var router = express.Router();
 var Project = require('../../../model/Project');
@@ -181,8 +177,5 @@ router.delete('/:id', function (req, res) {
         }
     })
 });
-
-
-
 
 module.exports = router;
