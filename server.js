@@ -11,7 +11,7 @@ mongoose.connect(process.env.DB, { useNewUrlParser: true });
 
 app.use(cors());
 
-var port = process.env.PORT;
+var port = process.env.PORT || 8082;
 
 
 var auth = require('./app/routes/v1/auth/auth');
@@ -34,6 +34,6 @@ app.use('/api/v1/auth', auth);
 app.use('/api/v1/task', task);
 app.use('/api/v1/project', project);
 
-app.listen(8082);
+app.listen(port);
 console.log('Magic happens at http://localhost:' + port);
 
