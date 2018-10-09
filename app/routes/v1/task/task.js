@@ -1,7 +1,3 @@
-// *************************************************+
-// APIS FOR USER MANAGEMENT (ADMIN) 
-// *************************************************+
-
 var express = require('express');
 var router = express.Router();
 var Task = require('../../../model/Task');
@@ -11,7 +7,6 @@ var jwt = require('jsonwebtoken');
 require('dotenv').config()
 
 app.set('secret', process.env.JWT_SECRET);
-
 
 // route middleware that will happen on every request
 router.use(function (req, res, next) {

@@ -29,8 +29,6 @@ router.post('/authenticate', function (req, res) {
 
       user.comparePassword(req.body.Password, function (err, isMatch) {
         if (err) throw err;
-        // console.log("Correct", isMatch); // -&gt; Password123: true
-        console.log(user);
         if (isMatch) {
           var token = jwt.sign({
             _id: user._id,
