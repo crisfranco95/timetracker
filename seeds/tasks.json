@@ -1,0 +1,48 @@
+[{
+		"_id": "5bbaaf4f0c5a3f02d08b7c2a",
+		"Started": true,
+		"IsDone": false,
+		"IsPaused": false,
+		"CreatedAt": "2018-10-08T01:13:36.999Z",
+		"User": "5bbaaa1862ad56029fb81ca2",
+		"Name": "Otra tarea",
+		"Duration": "12:20:12",
+		"__v": 0,
+		"StartedAt": "2018-10-09T02:52:22.285Z"
+	},
+	{
+		"_id": "5bbaaf510c5a3f02d08b7c2b",
+		"Started": false,
+		"IsDone": false,
+		"IsPaused": false,
+		"CreatedAt": "2018-10-08T01:13:36.999Z",
+		"User": "5bbaaa1862ad56029fb81ca2",
+		"Name": "Otra tarea",
+		"Duration": "12:20:12",
+		"__v": 0,
+		"NextTask": "5bbaaf4f0c5a3f02d08b7c2a",
+		"StartedAt": null
+	},
+	{
+		"_id": "5bbad13a8a9f24041615530a",
+		"Started": false,
+		"IsDone": false,
+		"IsPaused": false,
+		"CreatedAt": "2018-10-08T03:38:02.993Z",
+		"User": "5bb83b7e7d02000612388b26",
+		"Name": "Most recent one2",
+		"Duration": "12:20:12",
+		"__v": 0
+	},
+	{
+		"_id": "5bbad1578a9f24041615530b",
+		"Started": false,
+		"IsDone": false,
+		"IsPaused": false,
+		"CreatedAt": "2018-10-08T03:38:02.993Z",
+		"User": "5bbaaa1862ad56029fb81ca2",
+		"Name": "Most recent one2",
+		"Duration": "12:20:12",
+		"__v": 0
+	}
+]

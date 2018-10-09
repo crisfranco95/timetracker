@@ -1,0 +1,12 @@
+[{
+	"_id" : "5bbaaa1862ad56029fb81ca2",
+	"Auditory" : {
+		"createdAt" : "2018-10-08T00:51:25.285Z"
+	},
+	"FirstName" : "Cristian",
+	"LastName" : "Franco",
+	"Email" : "cristianjunior22@hotmail.com",
+	"Username" : "cfranco95",
+	"Password" : "$2b$10$PtKj00JIJzbLdbUVs.2PP.ul/C36pDSzZV1Slln2Flgbh0tOFYpOa",
+	"__v" : 0
+}]

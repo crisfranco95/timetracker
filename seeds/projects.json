@@ -1,0 +1,14 @@
+[
+	{
+	"_id" : "5bbc1be5140b4304f6d2575c",
+	"Tasks" : [
+		"5bbaaf4f0c5a3f02d08b7c2a",
+		"5bbaaf510c5a3f02d08b7c2b"
+	],
+	"TotalTime" : "00:00:00",
+	"TimeSpent" : "00:00:00",
+	"CreatedAt" : "2018-10-09T02:47:08.382Z",
+	"User" : "5bbaaa1862ad56029fb81ca2",
+	"Name" : "Test project",
+	"__v" : 0
+}]
